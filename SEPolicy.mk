@@ -59,4 +59,5 @@ ifeq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))
     endif
 endif
 
+-include device/flamingo/sepolicy/qcom/sepolicy.mk
 endif
